@@ -35,6 +35,12 @@ input[type="radio"] {
 }
 */
 
+[data-carnap-qualitativetype="multiplechoice"] label { 
+  padding-right:10px;
+  margin:10px;
+}
+
+
 #testTimer {
   display: block;
   position: -webkit-sticky; /* Safari */
