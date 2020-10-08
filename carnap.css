@@ -15,8 +15,8 @@
   padding-right: 5px;
 }
 
-[data-carnap-type='qualitative'] li {
-  padding-left: 10px;
+input[type="radio"] {
+    padding-right:10px;
 }
 
 #testTimer {
