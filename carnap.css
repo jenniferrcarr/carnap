@@ -19,6 +19,12 @@ input[type="radio"] {
     padding-right:10px;
 }
 
+[data-carnap-type='truthtable'] .checkmark {
+  padding-right:10px;
+}
+
+
+
 #testTimer {
   display: block;
   position: -webkit-sticky; /* Safari */
