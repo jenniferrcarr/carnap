@@ -20,8 +20,9 @@ input[type="radio"] {
     margin:10px;
 }
 
-[data-carnap-type='qualitative'] .checkmark {
+[data-carnap-type='qualitative'] .input {
   padding-right:10px;
+  margin:10px;
 }
 
 
