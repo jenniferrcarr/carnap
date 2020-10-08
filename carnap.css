@@ -20,12 +20,15 @@ input[type="radio"] {
     margin:10px;
 }
 
-[data-carnap-type='qualitative'] .input {
+[data-carnap-type='qualitative'] input {
   padding-right:10px;
   margin:10px;
 }
 
-
+[data-carnap-type='qualitative'] radio {
+  padding-right:10px;
+  margin:10px;
+}
 
 #testTimer {
   display: block;
