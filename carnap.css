@@ -1,3 +1,5 @@
+/* My tweaks on the dsanson css.*/
+
 [data-carnap-type='truthtable'] select {
   appearance: none;
   -webkit-appearance: none;
@@ -15,6 +17,8 @@
   padding-right: 5px;
 }
 
+
+/* Attempts to fix qualitative problems that didn't work. :( 
 input[type="radio"] {
     padding:10px;
     margin:10px;
@@ -29,6 +33,7 @@ input[type="radio"] {
   padding-right:10px;
   margin:10px;
 }
+*/
 
 #testTimer {
   display: block;
