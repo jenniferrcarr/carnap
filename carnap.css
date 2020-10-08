@@ -36,8 +36,7 @@ input[type="radio"] {
 */
 
 [data-carnap-qualitativetype="multiplechoice"] label { 
-  padding-right:10px;
-  margin:10px;
+  padding-left:10px;
 }
 
 
