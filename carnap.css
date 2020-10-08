@@ -27,7 +27,7 @@
   border: 1px;
   text-align: right;
   padding: 2px;
-  z-index: -1;
+  z-index: 1;
 }
 
 #testTimer:before {
