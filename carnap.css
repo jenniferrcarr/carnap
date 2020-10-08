@@ -21,8 +21,10 @@
   position: sticky;
   top: 1.5em;
   right: 0em;
-  width: 120%;
+  width: 100%;
   color: RoyalBlue;
+  background-color: white;
+  border: 1px;
   text-align: right;
   padding: 2px;
   z-index: -1;
