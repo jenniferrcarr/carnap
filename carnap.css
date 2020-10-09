@@ -18,26 +18,9 @@
 }
 
 
-/* Attempts to fix qualitative problems that didn't work. :( 
-input[type="radio"] {
-    padding:10px;
-    margin:10px;
-}
-
-[data-carnap-type='qualitative'] input {
-  padding-right:10px;
-  margin:10px;
-}
-
-[data-carnap-type='qualitative'] radio {
-  padding-right:10px;
-  margin:10px;
-}
-*/
-
 [data-carnap-qualitativetype="multiplechoice"] label { 
   padding-left:10px;
-  font-size:10pt;
+  font-size:12pt;
 }
 
 
