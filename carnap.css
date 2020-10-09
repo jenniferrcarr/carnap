@@ -1,5 +1,9 @@
 /* My tweaks on the dsanson css.*/
 
+body { 
+  font-family: 'Open Sans', sans-serif;
+}
+
 [data-carnap-type='truthtable'] select {
   appearance: none;
   -webkit-appearance: none;
