@@ -25,18 +25,9 @@ body {
 
 [data-carnap-qualitativetype="multiplechoice"] label { 
   padding-left:10px;
-  font-size:12pt;
+  font-size:11pt;
 }
 
-/*
-[data-carnap-qualitativetype="multiplechoice"] goal { 
-  font-size:20pt;
-}
-*/
-
-.exercises {
-  font-size:12pt;
-}
 
 h1,h2 { 
   margin-top: 30px;
