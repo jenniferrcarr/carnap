@@ -28,6 +28,9 @@ body {
   font-size:11pt;
 }
 
+.buttonWrapper {
+  font-family: 'Open Sans', sans-serif;
+}
 
 h1,h2 { 
   margin-top: 30px;
