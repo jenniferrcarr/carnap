@@ -28,8 +28,14 @@ body {
   font-size:12pt;
 }
 
+/*
 [data-carnap-qualitativetype="multiplechoice"] goal { 
   font-size:20pt;
+}
+*/
+
+.exercises {
+  font-size:12pt;
 }
 
 h1,h2 { 
