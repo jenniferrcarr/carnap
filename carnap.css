@@ -28,7 +28,7 @@ body {
   font-size:12pt;
 }
 
-[data-carnap-qualitativetype="multiplechoice"] label { 
+[data-carnap-qualitativetype="multiplechoice"] goal { 
   font-size:12pt;
 }
 
