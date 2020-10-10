@@ -47,6 +47,7 @@ h1,h2 {
   color: RoyalBlue;
   background-color: #c6d2f6;
   border: 1px;
+  border-color: RoyalBlue;
   text-align: right;
   padding: 2px;
   z-index: 1;
@@ -56,6 +57,8 @@ h1,h2 {
   content: 'Time remaining: ';
   color: black;
 }
+
+/*
 
 .buttonWrapper button {
     height:2em;
@@ -86,4 +89,6 @@ h1,h2 {
     background: #c6d2f6;
     border:1px solid #c6d2f6;
     color:black;
-}v
+}
+
+*/
