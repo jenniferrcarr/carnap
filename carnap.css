@@ -29,10 +29,10 @@ body {
 }
 
 [data-carnap-qualitativetype="multiplechoice"] goal { 
-  font-size:12pt;
+  font-size:20pt;
 }
 
-h2 { 
+h1,h2 { 
   margin-top: 30px;
   margin-bottom: 20px;
 }
