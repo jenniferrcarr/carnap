@@ -27,6 +27,11 @@ body {
   font-size:11pt;
 }
 
+[data-carnap-qualitativetype="multipleselection"] label { 
+  padding-left:10px;
+  font-size:11pt;
+}
+
 .buttonWrapper button {
   font-family: 'Open Sans', sans-serif;
 }
