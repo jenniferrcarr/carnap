@@ -69,8 +69,8 @@ h1,h2 {
 .buttonWrapper button {
     height:2em;
     margin:0px;
-    position:relative;
-    right:50px;
+    position:absolute;
+    right:0px;
     color:white;
     font-weight:bold;
     font-size:14px;
