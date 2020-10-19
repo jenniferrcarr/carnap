@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+}
+
+[data-carnap-type='truthtable'] select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+[data-carnap-type='truthtable'] td {
+  text-align: center;
+}
+
+[data-carnap-type='truthtable'] select {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background-color: #ecf0fc;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+[data-carnap-qualitativetype="multiplechoice"] label { 
+  padding-left:10px;
+  font-size:11pt;
+}
+
+[data-carnap-qualitativetype="multipleselection"] label { 
+  padding-left:10px;
+  font-size:11pt;
+}
+
+.buttonWrapper button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2 { 
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+#testTimer {
+  display: block;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0em;
+  right: 0em;
+  width: 100%;
+  color: RoyalBlue;
+  background-color: #ecf0fc;
+  border-style: solid;
+  border-width: 1px;
+  border-color: RoyalBlue;
+  text-align: right;
+  padding: 2px;
+  z-index: 1;
+}
+
+#testTimer:before {
+  content: 'Time remaining: ';
+  color: black;
+}
+
+/* Testing */
+
+.buttonWrapper button {
+    height:2em;
+    margin:0px;
+    position:relative;
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    padding-bottom:5px;
+}
+
+.buttonWrapper button:nth-child(1) {
+    background: #4169e1;
+    border:1px solid #4169e1;
+}
+
+.buttonWrapper button:nth-child(2) {
+    background: #6687e7;
+    border:1px solid #6687e7;
+}
+
+.buttonWrapper button:nth-child(3) {
+    background: #8da5ed;
+    border:1px solid #8da5ed;
+}
+
+.buttonWrapper button:nth-child(4) {
+    background: #c6d2f6;
+    border:1px solid #c6d2f6;
+    color:black;
+}
+
+.buttonWrapper button:hover,
+.buttonWrapper button[data-carnap-exercise-status="submitted"]
+{
+    animation: buttonHover .2s 1;
+    background: white;
+    color: #8da5ed;
+    border:1px solid #8da5ed;
+}
+
+.buttonWrapper button:hover svg,
+.buttonWrapper button[data-carnap-exercise-status="submitted"] svg
+{
+    animation: buttonHover .2s 1;
+    fill:#8da5ed;
+}
+
+.buttonWrapper button:hover svg .filler {
+    animation: buttonHover .2s 1;
+    fill:white;
+    stroke:white;
+}
+
+.buttonWrapper button:active svg .filler,
+.buttonWrapper button[data-carnap-exercise-status="submitted"] svg .filler {
+    fill:#8da5ed;
+    stroke:#8da5ed;
+}
+
+@keyframes buttonHover {
+    0% {
+        background:#8da5ed;
+        color:white;
+    }
+    100% {
+        background:white;
+        color:#8da5ed;
+    }
+}
