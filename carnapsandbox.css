@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 body { 
   font-family: 'Lato', sans-serif;
@@ -6,7 +6,7 @@ body {
 }
 
 strong {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 blockquote {
