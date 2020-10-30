@@ -5,7 +5,7 @@ body {
 }
 
 b {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 blockquote {
@@ -80,7 +80,7 @@ h1,h2 {
 .buttonWrapper button {
     height:2em;
     margin:0px;
-    position:relative;
+    position:absolute;
     right:0px;
     color:white;
     font-weight:bold;
