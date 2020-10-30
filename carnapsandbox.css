@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 
 body { 
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 strong {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 blockquote {
@@ -45,7 +46,7 @@ blockquote {
 }
 
 .buttonWrapper button {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,h2 { 
