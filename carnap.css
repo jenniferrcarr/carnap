@@ -35,7 +35,7 @@ footer {
   font-size: var(--body-font-size);
 }
 
-nav#navbar > ul > li { 
+nav#navbar li { 
   color: #fff;
   padding-bottom: 20px;
   font-family: var(--body-font);
@@ -44,6 +44,8 @@ nav#navbar > ul > li {
 
 nav#navbar li a{
   color: white !important;
+  font-family: var(--body-font);
+  font-size: var(--body-font-size); 
   }
 
 [data-carnap-type='truthtable'] select {
