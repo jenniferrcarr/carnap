@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Bitter&display=swap');
 @import url("https://use.typekit.net/akm1lgg.css");
 
 :root {
-  --main-button-color: #fe7a15;
-  --alt-button-color: #d3dd18;
-  --body-font: chaparral-pro-caption, 'Zilla Slab', sans-serif;
+  --main-button-color: #F27405;
+  --alt-button-color: #A1BF34;
+  --body-font: Bitter, chaparral-pro-caption, 'Zilla Slab', sans-serif;
   --body-font-size: 13pt;
 }
 
 body { 
   font-family: var(--body-font);
   font-weight: 500;
-  background-color: #0191B4;
+  background-color: #059197;
   font-size: var(--body-font-size);
 }
 
@@ -38,7 +38,7 @@ article {
   appearance: none;
   -webkit-appearance: none;
   border: none;
-  background-color: #ecf0fc;
+  background-color: #BDD270;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -106,7 +106,7 @@ h1,h2,h3 {
 }
 
 .buttonWrapper button:nth-child(2) {
-    background: #6687e7;
+    background: #02A2AD;
     border:1px solid #6687e7;
 }
 
