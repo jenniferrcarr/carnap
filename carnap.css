@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab:ital@1&display=swap');
 
 body { 
-  font-family: 'Lato', sans-serif;
+  font-family: 'Zilla Slab', sans-serif;
   font-weight: 400;
 }
 
@@ -40,10 +39,11 @@ strong {
 }
 
 .buttonWrapper button {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Zilla Slab', sans-serif;
 }
 
 h1,h2,h3 { 
+  font-family: 'Raleway';
   margin-top: 36px;
   margin-bottom: 26px;
 }
