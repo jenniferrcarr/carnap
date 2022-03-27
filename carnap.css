@@ -82,12 +82,12 @@ h1,h2,h3 {
   font-family: Raleway;
   margin-top: 36px;
   margin-bottom: 26px;
-  font-weight: 500;
-  color: var(--default-accent);
+  font-weight: 300;
 }
 
-.input {
+[data-carnap-type="qualitative"] > .input {
   font-size: var(--body-font-size);
+  border-color: var(--default-accent);
 }
 
 #testTimer {
@@ -116,12 +116,12 @@ h1,h2,h3 {
 
 .buttonWrapper button {
     height:2em;
-    margin:2px;
+    margin:0px;
     position:relative;
     color:white;
     font-weight:bold;
     font-size: var(--body-font-size);
-    padding-bottom:5px;
+    padding:4px;
 }
 
 .buttonWrapper button:nth-child(1) {
