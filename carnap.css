@@ -132,22 +132,22 @@ h1,h2,h3 {
 
 .buttonWrapper button:nth-child(1) {
     background: var(--main-button-color);
-    border:1px solid var(--main-button-color);
+    border:1px solid black;
 }
 
 .buttonWrapper button:nth-child(2) {
     background: #02A2AD;
-    border:1px solid #6687e7;
+    border:1px solid black;
 }
 
 .buttonWrapper button:nth-child(3) {
     background: var(--main-button-color);
-    border:1px solid #8da5ed;
+    border:1px solid black;
 }
 
 .buttonWrapper button:nth-child(4) {
     background: #c6d2f6;
-    border:1px solid #c6d2f6;
+    border:1px solid black;
     color:black;
 }
 
@@ -157,7 +157,7 @@ h1,h2,h3 {
     animation: buttonHover .2s 1;
     background: white;
     color: var(--alt-button-color);
-    border:1px solid var(--alt-button-color);
+    border:1px solid black;
 }
 
 .buttonWrapper button:hover svg,
