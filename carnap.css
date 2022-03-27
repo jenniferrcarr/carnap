@@ -1,14 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Zilla+Slab&display=swap');
+
+:root {
+  --main-button-color: #fe7a15;
+}
 
 body { 
   font-family: 'Zilla Slab', sans-serif;
   font-weight: 400;
+  background-color: #0191B4;
 }
 
 strong {
-  font-weight: 700;
+  font-weight: 600;
 }
 
+article { 
+  border-radius: 10px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 [data-carnap-type='truthtable'] select {
   appearance: none;
@@ -94,7 +105,7 @@ h1,h2,h3 {
 }
 
 .buttonWrapper button:nth-child(3) {
-    background: #8da5ed;
+    background: var(--main-button-color);
     border:1px solid #8da5ed;
 }
 
@@ -109,15 +120,15 @@ h1,h2,h3 {
 {
     animation: buttonHover .2s 1;
     background: white;
-    color: #8da5ed;
-    border:1px solid #8da5ed;
+    color: var(--main-button-color);
+    border:1px solid var(--main-button-color);
 }
 
 .buttonWrapper button:hover svg,
 .buttonWrapper button[data-carnap-exercise-status="submitted"] svg
 {
     animation: buttonHover .2s 1;
-    fill:#8da5ed;
+    fill:var(--main-button-color);
 }
 
 .buttonWrapper button:hover svg .filler {
@@ -128,18 +139,18 @@ h1,h2,h3 {
 
 .buttonWrapper button:active svg .filler,
 .buttonWrapper button[data-carnap-exercise-status="submitted"] svg .filler {
-    fill:#8da5ed;
-    stroke:#8da5ed;
+    fill:var(--main-button-color);
+    stroke:var(--main-button-color);
 }
 
 @keyframes buttonHover {
     0% {
-        background:#8da5ed;
+        background: var(--main-button-color);
         color:white;
     }
     100% {
         background:white;
-        color:#8da5ed;
+        color: var(--main-button-color);
     }
 }
 
