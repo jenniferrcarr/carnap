@@ -4,7 +4,7 @@
 :root {
   --main-button-color: #fe7a15;
   --alt-button-color: #d3dd18;
-  --body-font: chaparral-pro, 'Zilla Slab', sans-serif;
+  --body-font: chaparral-pro-caption, 'Zilla Slab', sans-serif;
   
 }
 
@@ -132,29 +132,29 @@ h1,h2,h3 {
 .buttonWrapper button[data-carnap-exercise-status="submitted"] svg
 {
     animation: buttonHover .2s 1;
-    fill:var(--main-button-color);
+    fill: var(--alt-button-color);
 }
 
 .buttonWrapper button:hover svg .filler {
     animation: buttonHover .2s 1;
-    fill:white;
-    stroke:white;
+    fill: white;
+    stroke: var(--alt-button-color);
 }
 
 .buttonWrapper button:active svg .filler,
 .buttonWrapper button[data-carnap-exercise-status="submitted"] svg .filler {
-    fill:var(--alt-button-color);
-    stroke:var(--alt-button-color);
+    fill: var(--alt-button-color);
+    stroke: var(--alt-button-color);
 }
 
 @keyframes buttonHover {
     0% {
-        background: var(--main-button-color);
+        background: var(--alt-button-color);
         color:white;
     }
     100% {
         background:white;
-        color: var(--main-button-color);
+        color: var(--alt-button-color);
     }
 }
 
