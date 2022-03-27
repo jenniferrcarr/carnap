@@ -85,6 +85,9 @@ h1,h2,h3 {
   font-weight: 500;
 }
 
+.input {
+  font-size: var(--body-font-size);
+}
 
 #testTimer {
   display: block;
@@ -112,7 +115,7 @@ h1,h2,h3 {
 
 .buttonWrapper button {
     height:2em;
-    margin:0px;
+    margin:2px;
     position:relative;
     color:white;
     font-weight:bold;
