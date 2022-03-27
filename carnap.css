@@ -10,7 +10,7 @@
 
 body { 
   font-family: var(--body-font);
-  font-weight: 400;
+  font-weight: 500;
   background-color: #0191B4;
   font-size: var(--body-font-size);
 }
