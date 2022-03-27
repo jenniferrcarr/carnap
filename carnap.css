@@ -91,6 +91,10 @@ h1,h2,h3 {
   font-size: var(--body-font-size);
   border-color: var(--default-accent);
 }
+[data-carnap-type="qualitative"] > .output {
+  font-size: var(--body-font-size);
+  border-color: var(--default-accent);
+}
 
 #testTimer {
   display: block;
