@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&family=Zilla+Slab&display=swap');
 @import url("https://use.typekit.net/akm1lgg.css");
 
 :root {
@@ -84,7 +84,7 @@ h1,h2,h3 {
   font-family: Raleway;
   margin-top: 36px;
   margin-bottom: 26px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 [data-carnap-type="qualitative"] > .input {
