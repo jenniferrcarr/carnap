@@ -3,7 +3,9 @@
 
 :root {
   --main-button-color: #fe7a15;
+  --alt-button-color: #d3dd18;
   --body-font: chaparral-pro, 'Zilla Slab', sans-serif;
+  
 }
 
 body { 
@@ -97,8 +99,8 @@ h1,h2,h3 {
 }
 
 .buttonWrapper button:nth-child(1) {
-    background: #4169e1;
-    border:1px solid #4169e1;
+    background: var(--main-button-color);
+    border:1px solid var(--main-button-color);
 }
 
 .buttonWrapper button:nth-child(2) {
@@ -122,8 +124,8 @@ h1,h2,h3 {
 {
     animation: buttonHover .2s 1;
     background: white;
-    color: var(--main-button-color);
-    border:1px solid var(--main-button-color);
+    color: var(--alt-button-color);
+    border:1px solid var(--alt-button-color);
 }
 
 .buttonWrapper button:hover svg,
@@ -141,8 +143,8 @@ h1,h2,h3 {
 
 .buttonWrapper button:active svg .filler,
 .buttonWrapper button[data-carnap-exercise-status="submitted"] svg .filler {
-    fill:var(--main-button-color);
-    stroke:var(--main-button-color);
+    fill:var(--alt-button-color);
+    stroke:var(--alt-button-color);
 }
 
 @keyframes buttonHover {
