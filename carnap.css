@@ -4,8 +4,8 @@
 :root {
   --main-button-color: #F27405;
   --alt-button-color: #A1BF34;
-  --body-font: 'Zilla Slab', sans-serif;
-  --body-font-size: 12pt;
+  --body-font: chaparral-pro-caption, 'Zilla Slab', sans-serif;
+  --body-font-size: 13pt;
   --default-accent: #059197;
 }
 
