@@ -5,7 +5,7 @@
   --main-button-color: #F27405;
   --alt-button-color: #A1BF34;
   --body-font: Raleway, 'Zilla Slab', sans-serif;
-  --body-font-size: 13pt;
+  --body-font-size: 12pt;
   --default-accent: #059197;
 }
 
@@ -128,7 +128,7 @@ nav#navbar li a{
     position:relative;
     color:white;
     font-size: var(--body-font-size);
-    padding:6px;
+    //* padding:6px; *//
 }
 
 .buttonWrapper button:nth-child(1) {
