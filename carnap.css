@@ -4,16 +4,23 @@
 :root {
   --main-button-color: #F27405;
   --alt-button-color: #A1BF34;
-  --body-font: chaparral-pro-caption, 'Zilla Slab', sans-serif;
+  --body-font: Raleway, 'Zilla Slab', sans-serif;
   --body-font-size: 13pt;
   --default-accent: #059197;
 }
 
 body { 
   font-family: var(--body-font);
-  font-weight: 500;
+  font-weight: 400;
   background-color: #059197;
   font-size: var(--body-font-size);
+}
+
+h1,h2,h3 { 
+  font-family: chaparral-pro;
+  margin-top: 36px;
+  margin-bottom: 26px;
+  font-weight: 200;
 }
 
 strong {
@@ -80,12 +87,7 @@ nav#navbar li a{
   font-family: var(--body-font);
 }
 
-h1,h2,h3 { 
-  font-family: Raleway;
-  margin-top: 36px;
-  margin-bottom: 26px;
-  font-weight: 200;
-}
+
 
 [data-carnap-type="qualitative"] > .input {
   font-size: var(--body-font-size);
@@ -131,22 +133,22 @@ h1,h2,h3 {
 
 .buttonWrapper button:nth-child(1) {
     background: var(--main-button-color);
-    border:1px solid black;
+    border:1px solid var(--main-button-color);
 }
 
 .buttonWrapper button:nth-child(2) {
     background: #02A2AD;
-    border:1px solid black;
+    border:1px solid var(--main-button-color);
 }
 
 .buttonWrapper button:nth-child(3) {
     background: var(--main-button-color);
-    border:1px solid black;
+    border:1px solid var(--main-button-color);
 }
 
 .buttonWrapper button:nth-child(4) {
     background: #c6d2f6;
-    border:1px solid black;
+    border:1px solid #c6d2f6;
     color:black;
 }
 
@@ -156,7 +158,7 @@ h1,h2,h3 {
     animation: buttonHover .2s 1;
     background: white;
     color: var(--alt-button-color);
-    border:1px solid black;
+    border:1px solid var(--alt-button-color);
 }
 
 .buttonWrapper button:hover svg,
