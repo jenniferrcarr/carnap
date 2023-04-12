@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&family=Nunito+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url("https://use.typekit.net/akm1lgg.css");
+
+:root {
+  --main-button-color: #F27405;
+  --alt-button-color: #A1BF34;
+  --body-font: 'Nunito Sans', 'Lato', sans-serif;
+  --body-font-size: 12pt;
+  --default-accent: #059197;
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: 400;
+  background-color: #059197;
+  font-size: var(--body-font-size);
+}
+
+h1,h2,h3 {
+  font-family: chaparral-pro;
+  margin-top: 36px;
+  margin-bottom: 26px;
+  font-weight: 200;
+}
+
+strong {
+  font-weight: 600;
+}
+
+article {
+  border-radius: 10px;
+  background: white;
+  padding: 10px 40px 20px 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+}
+
+nav#navbar li {
+  color: #fff;
+  padding-bottom: 20px;
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+}
+
+nav#navbar li a{
+  color: white !important;
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+  }
+
+[data-carnap-type='truthtable'] select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+[data-carnap-type='truthtable'] td {
+  text-align: center;
+}
+
+[data-carnap-type='truthtable'] select {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background-color: #BDD270;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+
+[data-carnap-qualitativetype="multiplechoice"] label {
+  padding-left:10px;
+  font-size: var(--body-font-size);
+}
+
+[data-carnap-qualitativetype="multipleselection"] label {
+  padding-left:10px;
+  font-size: var(--body-font-size);
+}
+
+.buttonWrapper button {
+  font-family: var(--body-font);
+}
+
+
+
+[data-carnap-type="qualitative"] > .input {
+  font-size: var(--body-font-size);
+  border-color: var(--default-accent);
+}
+[data-carnap-type="qualitative"] > .output {
+  font-size: var(--body-font-size);
+  border-color: var(--default-accent);
+}
+
+#testTimer {
+  display: block;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0em;
+  right: 0em;
+  width: 100%;
+  color: RoyalBlue;
+  background-color: #ecf0fc;
+  border-style: solid;
+  border-width: 1px;
+  border-color: RoyalBlue;
+  text-align: right;
+  padding: 2px;
+  z-index: 1;
+}
+
+#testTimer:before {
+  content: 'Time remaining: ';
+  color: black;
+}
+
+/* Testing */
+
+.buttonWrapper button {
+    height:2em;
+    margin:0px;
+    position:relative;
+    color:white;
+    font-size: var(--body-font-size);
+    //* padding:6px; *//
+}
+
+.buttonWrapper button:nth-child(1) {
+    background: var(--main-button-color);
+    border:1px solid var(--main-button-color);
+}
+
+.buttonWrapper button:nth-child(2) {
+    background: #02A2AD;
+    border:1px solid var(--main-button-color);
+}
+
+.buttonWrapper button:nth-child(3) {
+    background: var(--main-button-color);
+    border:1px solid var(--main-button-color);
+}
+
+.buttonWrapper button:nth-child(4) {
+    background: #c6d2f6;
+    border:1px solid #c6d2f6;
+    color:black;
+}
+
+.buttonWrapper button:hover,
+.buttonWrapper button[data-carnap-exercise-status="submitted"]
+{
+    animation: buttonHover .2s 1;
+    background: white;
+    color: var(--alt-button-color);
+    border:1px solid var(--alt-button-color);
+}
+
+.buttonWrapper button:hover svg,
+.buttonWrapper button[data-carnap-exercise-status="submitted"] svg
+{
+    animation: buttonHover .2s 1;
+    fill: var(--alt-button-color);
+}
+
+.buttonWrapper button:hover svg .filler {
+    animation: buttonHover .2s 1;
+    fill: white;
+    stroke: var(--alt-button-color);
+}
+
+.buttonWrapper button:active svg .filler,
+.buttonWrapper button[data-carnap-exercise-status="submitted"] svg .filler {
+    fill: var(--alt-button-color);
+    stroke: var(--alt-button-color);
+}
+
+@keyframes buttonHover {
+    0% {
+        background: var(--alt-button-color);
+        color:white;
+    }
+    100% {
+        background:white;
+        color: var(--alt-button-color);
+    }
+}
