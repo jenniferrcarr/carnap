@@ -55,6 +55,10 @@ nav#navbar li a{
   font-size: var(--body-font-size); 
   }
 
+nav#navbar li.dropdown > ul {
+  background-color: #059197;
+}
+
 [data-carnap-type='truthtable'] select {
   appearance: none;
   -webkit-appearance: none;
