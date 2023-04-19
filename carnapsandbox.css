@@ -17,6 +17,10 @@ blockquote {
   width: 80%
 }
 
+nav#navbar li.dropdown > ul {
+  background-color: #059197;
+}
+
 [data-carnap-type='truthtable'] select {
   appearance: none;
   -webkit-appearance: none;
