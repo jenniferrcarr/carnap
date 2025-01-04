@@ -50,7 +50,7 @@ nav#navbar li {
 }
 
 nav#navbar li a{
-  color: white !important;
+  color: black !important;
   font-family: var(--body-font);
   font-size: var(--body-font-size); 
   }
