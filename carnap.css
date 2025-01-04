@@ -57,6 +57,7 @@ nav#navbar li a{
 
 nav#navbar li.dropdown > ul {
   background-color: #059197;
+  color: black !important;
 }
 
 [data-carnap-type='truthtable'] select {
