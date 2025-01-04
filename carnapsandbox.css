@@ -17,9 +17,22 @@ blockquote {
   width: 80%
 }
 
+nav#navbar li { 
+  color: #000;
+  padding-bottom: 20px;
+  font-family: var(--body-font);
+  font-size: var(--body-font-size); 
+}
+
+nav#navbar li a{
+  color: black !important;
+  font-family: var(--body-font);
+  font-size: var(--body-font-size); 
+  }
+
 nav#navbar li.dropdown > ul {
   background-color: #059197;
-  color: black;
+  color: black !important;
 }
 
 [data-carnap-type='truthtable'] select {
