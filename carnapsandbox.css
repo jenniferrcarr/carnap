@@ -18,7 +18,7 @@ blockquote {
 }
 
 nav#navbar li { 
-  color: #000;
+  color: #000 !important;
   padding-bottom: 20px;
   font-family: var(--body-font);
   font-size: var(--body-font-size); 
