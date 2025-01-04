@@ -19,6 +19,7 @@ blockquote {
 
 nav#navbar li.dropdown > ul {
   background-color: #059197;
+  color: black;
 }
 
 [data-carnap-type='truthtable'] select {
