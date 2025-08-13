@@ -129,7 +129,9 @@ nav#navbar li.dropdown > ul {
   font-family: var(--body-font);
 }
 
-
+button {
+  border-radius: 3px;
+}
 
 [data-carnap-type="qualitative"] > .input {
   font-size: var(--body-font-size);
