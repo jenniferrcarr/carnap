@@ -34,7 +34,7 @@ strong {
 }
 
 a {
-  color: var(--default-accent: #059197);
+  color: var(--default-accent);
 }
 
 article { 
