@@ -14,6 +14,8 @@ body {
   font-weight: 400;
   background-color: #059197;
   font-size: var(--body-font-size);
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1,h2,h3 { 
@@ -21,6 +23,8 @@ h1,h2,h3 {
   margin-top: 36px;
   margin-bottom: 26px;
   font-weight: 200;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 strong {
