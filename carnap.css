@@ -48,7 +48,7 @@ blockquote {
   background: var(--accent-tinted-background);
   border-left: 4px solid var(--default-accent);
   margin: 1.5em;
-  padding: 0.5em 10px;
+  padding: 0.5em 10px 0.5em;
   border-radius: 4px;
 }
 
@@ -67,9 +67,6 @@ pre code {
   min-width: 100px;
   padding: 0.5em;
 }
-
-
-
 
 footer { 
   color: #fff;
@@ -125,12 +122,13 @@ nav#navbar li.dropdown > ul {
   font-size: var(--body-font-size);
 }
 
-.buttonWrapper button {
-  font-family: var(--body-font);
-}
 
 button {
   border-radius: 3px;
+}
+
+.buttonWrapper button {
+  font-family: var(--body-font);
 }
 
 [data-carnap-type="qualitative"] > .input {
