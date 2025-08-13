@@ -11,7 +11,7 @@
 
 body { 
   font-family: var(--body-font);
-  font-weight: 300;
+  font-weight: 400;
   background-color: #059197;
   font-size: var(--body-font-size);
   text-rendering: auto;
@@ -22,7 +22,7 @@ h1,h2,h3 {
   font-family: Lato;
   margin-top: 36px;
   margin-bottom: 26px;
-  font-weight: 400;
+  font-weight: 600;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,7 +42,7 @@ blockquote {
   background: #f9f9f9;
   border-left: 3px solid var(--default-accent);
   margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  padding: 0.5em 10px 0;
 }
 
 footer { 
