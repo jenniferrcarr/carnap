@@ -33,6 +33,10 @@ strong {
   font-weight: 600;
 }
 
+a {
+  color: var(--default-accent: #059197);
+}
+
 article { 
   border-radius: 10px;
   background: white;
