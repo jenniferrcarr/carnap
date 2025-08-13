@@ -47,6 +47,11 @@ blockquote {
   padding: 0.5em 10px 0;
 }
 
+code {
+  color: #000;
+  background: var(--alt-tinted-background);
+}
+
 pre code {
   display: block;
   background: var(--alt-tinted-background);
@@ -56,6 +61,8 @@ pre code {
   min-width: 100px;
   padding: 0.5em;
 }
+
+
 
 
 footer { 
