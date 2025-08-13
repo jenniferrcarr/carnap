@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&family=Nunito+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url("https://use.typekit.net/akm1lgg.css");
 
 :root {
   --main-button-color: #F27405;
   --alt-button-color: #A1BF34;
-  --body-font: 'Nunito Sans', 'Lato', sans-serif;
+  --body-font: 'Lato', sans-serif;
   --body-font-size: 12pt;
   --default-accent: #059197;
 }
 
 body { 
   font-family: var(--body-font);
-  font-weight: 400;
+  font-weight: 300;
   background-color: #059197;
   font-size: var(--body-font-size);
   text-rendering: auto;
@@ -19,7 +19,7 @@ body {
 }
 
 h1,h2,h3 { 
-  font-family: chaparral-pro;
+  font-family: Lato;
   margin-top: 36px;
   margin-bottom: 26px;
   font-weight: 200;
@@ -40,7 +40,7 @@ article {
 
 blockquote {
   background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  border-left: 3px solid var(--default-accent);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
