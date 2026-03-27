@@ -239,4 +239,8 @@ button {
     }
 }
 
+/* Attempted accessibility improvements */
 
+.exercise > span:nth-child(1), .exercise > span:nth-child(2) {
+  color: var(--default-accent);
+}
