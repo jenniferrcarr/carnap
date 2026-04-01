@@ -245,9 +245,13 @@ button {
   color: var(--default-accent) !important;
 }
 
-element.style {
+footer {
     opacity: 1;
     color: black !important;
     font-family: var(--body-font);
     font-size: var(--body-font-size); 
+}
+
+a#opentower {
+   color: black !important;
 }
