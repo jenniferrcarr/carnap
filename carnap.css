@@ -2,13 +2,13 @@
 @import url("https://use.typekit.net/akm1lgg.css");
 
 :root {
-  --main-button-color: #BE5B04;
+  --main-button-color: #813c00;
   --alt-button-color: #697C22;
   --accent-tinted-background: #e6f4f4;
   --alt-tinted-background: #f5f8ea;
   --body-font: 'Lato', sans-serif;
   --body-font-size: 12pt;
-  --default-accent: #048186;
+  --default-accent: #015053;
 }
 
 body { 
@@ -185,7 +185,7 @@ button {
 }
 
 .buttonWrapper button:nth-child(2) {
-    background: #02A2AD;
+    background: var(--main-button-color;
     border:1px solid var(--main-button-color);
 }
 
