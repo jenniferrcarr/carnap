@@ -247,5 +247,7 @@ button {
 
 element.style {
     opacity: 1;
-    color: rgb(0, 0, 0);
+    color: black !important;
+    font-family: var(--body-font);
+    font-size: var(--body-font-size); 
 }
