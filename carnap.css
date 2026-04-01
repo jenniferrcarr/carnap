@@ -185,8 +185,8 @@ button {
 }
 
 .buttonWrapper button:nth-child(2) {
-    background: var(--main-button-color;
-    border:1px solid var(--main-button-color);
+    background: var(--default-accent);
+    border:1px solid var(--default-accent);
 }
 
 .buttonWrapper button:nth-child(3) {
